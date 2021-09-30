@@ -26,13 +26,12 @@ public class Student {
 
     // adds the given grade to the grades list
     public void addGrade(int grade){
-
+        this.grades.add(grade);
     }
 
     // returns the list of grades
     public ArrayList<Integer> getGrades(){
-
-        return null;
+        return grades;
     }
 
     // returns the average of the students grades
